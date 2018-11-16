@@ -1,0 +1,299 @@
+.ad-1 {
+	padding-top: 150px;
+}
+
+.ad-1-1 {
+	padding-top: 50px;
+}
+
+.title {
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	margin-left: -10px;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+body {
+	color: white;
+}
+
+#top-image {
+	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+	/* position:fixed ; */
+	width:100%;
+	z-index:-1;
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: calc(100% + 500px);
+}
+
+/*------------------------------------  */
+/* -----------Responsive-------------- */
+/*----------------------------------  */
+
+@media screen and (min-width: 376px) and (max-width: 575px)
+{
+	.ad-1, .ad-laptop, .ad-tablet, .ad-phone{
+		display: none;
+	}
+
+	.title-phone-5i {
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.title-phone-5i:hover {
+		color: red;
+	}
+
+	.ad-phone-5i {
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+
+	.ad-phone-5i-2, .ad-phone-5i-3, .ad-phone-5i-4, .ad-phone-5i-5 {
+		padding-top: 15px; 
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+
+	#top-image {
+		background-color: red; /* For browsers that do not support gradients */
+		background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
+	}
+
+} 
+
+/* ----------- sm content-respon ----------- */
+@media screen 
+and (min-width: 576px) and (max-width:767px) 
+{
+
+	.ad-1, .ad-laptop, .ad-tablet, .ad-phone-5i{
+		display: none;
+	}
+
+	.title-phone {
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.title-phone:hover {
+		color: red;
+	}
+
+	.ad-phone{
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+
+	.ad-phone-2, .ad-phone-3, .ad-phone-4, .ad-phone-5 {
+		padding-top: 15px; 
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+
+	#top-image {
+		background-color: red; /* For browsers that do not support gradients */
+		background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
+	}
+} 
+/* oki */
+
+/* ----------- md -----------  */
+@media screen 
+and (min-width: 768px) and (max-width:991px) 
+{
+	.ad-1, .ad-laptop, .ad-phone, .ad-phone-5i{
+		display: none;
+	}
+
+	.ad-tablet {
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	.ad-tablet-2, .ad-tablet-3 {
+		padding-top: 50px; 
+	}
+
+	.title-tablet {
+		color: white;
+		font-size: 18px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.title-tablet:hover {
+		color: red;
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+	
+}
+/* oki */
+
+/* -------------------- lg Laptop 1024-----------------*/
+@media  screen 
+and (min-width: 992px) and (max-width: 1199px) 
+{
+	.ad-1, .ad-tablet, .ad-phone, .ad-phone-5i {
+		display: none;
+	}
+
+	.title-laptop {
+		color: white;
+		font-size: 18px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.title-laptop:hover {
+		color: red;
+	}
+
+	.ad-laptop {
+		padding-bottom: 20px;
+		padding-top: 70px;
+	}
+
+	.ad-laptop-2, .ad-laptop-3 {
+		padding-top: 50px; 
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+}
+/* oki lg  */
+
+/* mang hinh co lon */
+@media screen 
+and (min-width: 1200px) and (max-width: 2559px)
+{
+	.ad-1, .ad-tablet, .ad-phone, .ad-phone-5i{
+		display: none;
+	}
+
+	.title-laptop {
+		color: white;
+		font-size: 18px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.ad-laptop {
+		padding-top:70px;
+		padding-bottom: 20px;
+	}
+
+	.ad-laptop-2, .ad-laptop-2, .ad-laptop-3 {
+		padding-top: 50px; 
+	}
+
+
+	.title-laptop:hover {
+		color: red;
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+	
+}
+/* xong mang hinh lg desktop  */
+
+@media screen 
+and (min-width: 2560px)
+{
+	.ad-laptop, .ad-tablet, .ad-phone, .ad-phone-5i {
+		display: none;
+	}
+
+	.ad-1 {
+		padding-top: 70px;
+		padding-bottom: 20px;
+	}
+
+	.ad-1-1 {
+		padding-top: 50px;
+	}
+
+	.title {
+		text-align: center;
+		font-size: 16px;
+		color: white;
+		margin-left: -10px;
+	}
+
+	.title:hover {
+		color: red;
+	}
+
+	img:hover {
+		opacity: 0.7;
+	}
+}
+
+.ribbon {
+	font-size: 16px !important;
+
+	width: 50%;
+
+	position: relative;
+	background-color: red; /* For browsers that do not support gradients */
+	background-image: linear-gradient(180deg, red, yellow); /* Standard syntax (must be last) */
+	color: #fff;
+	text-align: center;
+	padding: 1em 2em; /* thay đổi cho phù hợp với kích cỡ */
+	margin: 2em auto 3em;
+}
+.ribbon:before, .ribbon:after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1.5em solid #0FAF2D;
+	z-index: -1;
+}
+.ribbon:before {
+	left: -2em;
+	border-right-width: 1.5em;
+	border-left-color: transparent;
+}
+.ribbon:after {
+	right: -2em;
+	border-left-width: 1.5em;
+	border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #37A6E5 transparent transparent transparent;
+	bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+
